@@ -4,7 +4,7 @@ public class CreativeStaff extends StaffMember {
 
 	public CreativeStaff(int staffNo, String staffName, String staffStartDate, String staffEmailAddress) {
 		super(staffNo, staffName, staffStartDate, staffEmailAddress);
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public void AddNewStaff() {
@@ -29,7 +29,7 @@ public void assignStaffContact() {
 
 	@Override
 	public void type() {
-		System.out.println("Calisanin pozisyonu Graphic designer");
+		System.out.println("Calisanin pozisyonu Graphic Designer");
 		
 	}
 	
