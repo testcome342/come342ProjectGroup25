@@ -13,7 +13,7 @@ public class Client {
 		public void addNewCampaign() {
 			
 			ArrayList <String> campaigns = new ArrayList <String> ();	
-			campaigns.add("30 nisan tarihine kadar  gecerli 300 tl indirim kazandınız");
+			campaigns.add("Haftasonuna özel belirli ürünlerde %50 indirim fırsatı");
 			campaigns.add("1 hafta icinde yapacagnız islemlerde % 20 indirim kazandınız");
 			
 			System.out.println (campaigns.get(0));
