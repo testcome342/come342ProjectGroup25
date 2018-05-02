@@ -3,21 +3,29 @@ package controller;
 public class Campaign {
 
 	public String campaignTitle, campaignStartDate, campaignFinishDate,currentState ;
-	int estimatedCost, campaignBudget;
+	public int estimatedCost, campaignBudget;
 	
 	
 	
-	public Campaign (String title,String campaignStartDate,String campaignFinishDate , String currentState, int estimatedCost,int campaignBudget) 
-	{
-		this.campaignTitle=title;
-		this.campaignStartDate=campaignStartDate;
-		this.campaignFinishDate=campaignFinishDate;
-		this.currentState=currentState;
-		this.estimatedCost=estimatedCost;
-		this.campaignBudget=campaignBudget;
+	
+	
+	public void createCampaign() {
+			
+				
+		}
+public Campaign(String alinancampaignTitle,String alinancampaignStartDate,String alinancampaignFinishDate,String alinancurrentState,int alinanestimatedCost,int alinancampaignBudget) {
 		
+		setCampaignTitle(alinancampaignTitle);
+		setCampaignStartDate(alinancampaignStartDate);
+		setCampaignFinishDate(alinancampaignFinishDate);
+		setCurrentState(alinancurrentState);
+		setEstimatedCost(alinanestimatedCost);
+		setCampaignBudget(alinancampaignBudget);
+		
+			
 	}
 	
+
 	
 	
 	public String getCampaignTitle() {
